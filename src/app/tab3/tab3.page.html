@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Contacts
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,72 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Contacts</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-searchbar></ion-searchbar>
+    <ion-item button (click)="testClick()">
+      <ion-avatar slot="start">
+        <img src="assets/contacts/beluga.jfif">
+      </ion-avatar>
+      <ion-label>
+        <h2>Beluga</h2>
+        <p>0909-123-1123</p>
+      </ion-label>
+      <ion-button shape="round">Call</ion-button>
+    </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/hecker.jfif">
+    </ion-avatar>
+    <ion-label>
+        <h2>Hecker</h2>
+        <p>0909-123-1123</p>
+    </ion-label>
+    <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/pablo.jfif">
+    </ion-avatar>
+    <ion-label>
+        <h2>Pablo</h2>
+        <p>0909-123-1123</p>
+    </ion-label>
+    <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/wok.png">
+    </ion-avatar>
+        <ion-label>
+          <h2>The Wok</h2>
+          <p>0909-123-1123</p>
+        </ion-label>
+        <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/skittles.jfif">
+    </ion-avatar>
+        <ion-label>
+          <h2>Skittles</h2>
+          <p>0909-123-1123</p>
+        </ion-label>
+        <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  <ion-item button (click)="testClick()">
+    <ion-avatar slot="start">
+      <img src="assets/contacts/xina.jfif">
+    </ion-avatar>
+        <ion-label>
+          <h2>Zhong Xina</h2>
+          <p>0909-123-1123</p>
+        </ion-label>
+        <ion-button shape="round">Call</ion-button>
+  </ion-item>
+  
 </ion-content>
+
